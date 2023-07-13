@@ -4,7 +4,7 @@
 
 - Jetson Inference 
 https://github.com/dusty-nv/jetson-inference
-- sc2
+- sc2 code repository
 https://github.com/yoshitomo-matsubara/sc2-benchmark
 - ONNX
 https://blog.roboflow.com/what-is-onnx/
