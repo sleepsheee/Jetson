@@ -65,7 +65,7 @@ Decoder contains part of tail models, it decompress the encoded part.
        make -j$(nproc)
       ```
 5. Convert ONNX to TensorRT engine
-   - The fisrt part of this command is the installation path of TensorRT package
+   - The first part of this command is the installation path of TensorRT package
    ```sh
    '/home/matteo/TensorRT-8.6.1.6/bin/trtexec --onnx=./models/ssd_{}.onnx --saveEngine=./models/ssd_{}.trt'.format(self.precision, self.precision)
         output = subprocess.check_call(cmd.split(' '))
