@@ -57,13 +57,13 @@ https://github.com/MatteoMendula/splittableFasterCRRNN_BQ/blob/main/script/split
 4. Install TensorTRT on your machine:
 https://github.com/NVIDIA/TensorRT
 
-- An example : Linux (aarch64) build with default cuda-12.0
-```sh
- cd $TRT_OSSPATH
- mkdir -p build && cd build
- cmake .. -DTRT_LIB_DIR=$TRT_LIBPATH -DTRT_OUT_DIR=`pwd`/out -DCMAKE_TOOLCHAIN_FILE=$TRT_OSSPATH/cmake/toolchains/cmake_aarch64-native.toolchain
- make -j$(nproc)
-```
+   - An example : Linux (aarch64) build with default cuda-12.0
+      ```sh
+       cd $TRT_OSSPATH
+       mkdir -p build && cd build
+       cmake .. -DTRT_LIB_DIR=$TRT_LIBPATH -DTRT_OUT_DIR=`pwd`/out -DCMAKE_TOOLCHAIN_FILE=$TRT_OSSPATH/cmake/toolchains/cmake_aarch64-native.toolchain
+       make -j$(nproc)
+      ```
 5. Convert ONNX to TensorRT engine
    - The fisrt part of this command is the installation path of TensorRT package
    ```sh
