@@ -30,10 +30,10 @@ Decoder contains part of tail models, it decompress the encoded part.
 
 ## Run sc2 on Jetson
 1. Download the chekpoints :
-https://github.com/yoshitomo-matsubara/sc2-benchmark/releases/tag/v0.0.3
+   https://github.com/yoshitomo-matsubara/sc2-benchmark/releases/tag/v0.0.3
    
 2. Downlod file :
-https://github.com/MatteoMendula/splittableFasterCRRNN_BQ/blob/main/script/split_alternate/dummy_client_v4.py
+   https://github.com/MatteoMendula/splittableFasterCRRNN_BQ/blob/main/script/split_alternate/dummy_client_v4.py
 
 3. Save the encoder as ONNX file
    ```sh
@@ -55,7 +55,7 @@ https://github.com/MatteoMendula/splittableFasterCRRNN_BQ/blob/main/script/split
     ```
    
 4. Install TensorTRT on your machine:
-https://github.com/NVIDIA/TensorRT
+   https://github.com/NVIDIA/TensorRT
 
    - An example : Linux (aarch64) build with default cuda-12.0
       ```sh
