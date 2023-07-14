@@ -57,7 +57,7 @@ https://github.com/MatteoMendula/splittableFasterCRRNN_BQ/blob/main/script/split
 4. Install TensorTRT on your machine:
 https://github.com/NVIDIA/TensorRT
 
-An example : Linux (aarch64) build with default cuda-12.0
+- An example : Linux (aarch64) build with default cuda-12.0
 ```sh
  cd $TRT_OSSPATH
  mkdir -p build && cd build
@@ -65,11 +65,11 @@ An example : Linux (aarch64) build with default cuda-12.0
  make -j$(nproc)
 ```
 5. Convert ONNX to TensorRT engine
-   The fisrt part of this command is the installation path of TensorRT package
+   - The fisrt part of this command is the installation path of TensorRT package
    ```sh
    '/home/matteo/TensorRT-8.6.1.6/bin/trtexec --onnx=./models/ssd_{}.onnx --saveEngine=./models/ssd_{}.trt'.format(self.precision, self.precision)
         output = subprocess.check_call(cmd.split(' '))
    ```
    You should get a ___.trt file
    
-7. Check if TRT inference is the file to run a TRT engine
+6. Check if TRT inference is the file to run a TRT engine
