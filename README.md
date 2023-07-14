@@ -73,3 +73,5 @@ https://github.com/NVIDIA/TensorRT
    You should get a ___.trt file
    
 6. Check if TRT inference is the file to run a TRT engine
+   https://github.com/MatteoMendula/QuantizingPytorch/blob/main/object_detection/ssd/checkTRT_inference.py
+   
